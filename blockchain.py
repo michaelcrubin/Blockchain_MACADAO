@@ -74,7 +74,7 @@ app = Flask(__name__)
 # initiating Blockchain instance
 blockchain1 = Blockchain()
 
-
+# API request to mine a Block
 @app.route("/mine_block", methods = ['GET'])
 def mine_block():
     previous_block = blockchain1.get_previous_block()
@@ -88,8 +88,16 @@ def mine_block():
                 'proof': block['proof'],
                 'previous_hash': block['previous_hash']}
     return jsonify(response), 200
-    
 
+# API request to get the full chain
+@app.route("/get_chain", methods = ['GET'])
+def get_chain():
+    response = {'chain': blockchain1.chain,
+                'lenght': len(blockchain1.chain)}
+    return jsonify(response), 200
+    
+# Running the Flask App
+app.run(host = '0.0.0.0', port = 5000)
 
 
 
