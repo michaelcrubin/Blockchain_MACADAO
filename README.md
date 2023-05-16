@@ -2,6 +2,12 @@
 
 This project is a tutorial on blockchain technology, aiming to provide a better understanding of the mechanics behind a blockchain. It demonstrates the implementation of a blockchain from scratch, showcasing the concepts of proof of work and decentralization.
 
+## Tutorial Video
+Before diving into the code and details of the project, we recommend watching the following introductory video that provides an overview of blockchain technology and its fundamental concepts:
+
+[![Blockchain Introduction](https://youtu.be/qgREVIAzHI0)
+
+
 ## Code Overview
 
 The provided code implements a basic blockchain and exposes an API for interacting with it. Here is a summary of the main components and functionalities:
