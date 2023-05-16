@@ -5,7 +5,8 @@ This project is a tutorial on blockchain technology, aiming to provide a better 
 ## Tutorial Video
 Before diving into the code and details of the project, we recommend watching the following introductory video that provides an overview of blockchain technology and its fundamental concepts:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qgREVIAzHI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![Blockchain Introduction](https://img.youtube.com/vi/qgREVIAzHI0/0.jpg)](https://www.youtube.com/watch?v=qgREVIAzHI0)
+
 
 
 ## Code Overview
