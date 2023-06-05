@@ -1,6 +1,6 @@
 """
 Created on Sat Dec 18 14:39:15 2022
-@author: michaelrubin
+@author: michaelrubin Change to clone
 Project: MACADAO Blockchain Dev
 Part: This script creates a boilerplate Cryptocurrency called MacaCo (MACA Coin)
 """
